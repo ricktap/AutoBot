@@ -1,0 +1,34 @@
+{
+    "name": "ricktap/autobot",
+    "description": "Automatic transformation with league/fractal. Translates your Laravel 5 collections into json api spec compatible responses a single generic transformer. One size fits them all.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "json", "api", "transformer", "fractal", "response"],
+    "homepage": "https://github.com/ricktap/AutoBot",
+    "authors": [
+        {
+            "name": "Patrick Selge",
+            "email": "pselge@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      "php": "^5.6  || ^7.0",
+      "illuminate/support": "^5.2",
+      "illuminate/database": "^5.2",
+      "league/fractal": "^0.13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+      "psr-4": {
+        "RickTap\\AutoBot\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RickTap\\AutoBot\\Tests\\": "tests"
+        }
+    }
+}
