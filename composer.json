@@ -1,6 +1,6 @@
 {
     "name": "ricktap/autobot",
-    "description": "Automatic transformation with league/fractal. Translates your Laravel 5 collections into json api spec compatible responses a single generic transformer. One size fits them all.",
+    "description": "Automatic transformation with league/fractal. Translates your Laravel 5 collections into json api spec compatible responses with a single generic transformer. One size fits them all.",
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "json", "api", "transformer", "fractal", "response"],
